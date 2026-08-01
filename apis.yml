@@ -1,7 +1,27 @@
 aid: smacktechnologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smacktechnologies.png
 name: Smacktechnologies
-description: Smacktechnologies is a company surfaced as a portfolio company of felicis and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Smack Technologies is a frontier AI lab dedicated to national security, building
+  domain-specific multimodal models trained via deep reinforcement learning in synthetic warfare
+  environments to deliver decision dominance to the U.S. Department of War, its allies and partners.
+  The company ships two product suites — Omega, a command-level AI stack pairing frontier models
+  with customer-specific applications for strategic decision-making, and Alpha, an edge-level stack
+  of lightweight models on proprietary hardware for tactical platforms and autonomous systems.
+  Founded by MARSOC veterans Andrew Markoff and Clint Alanis and headquartered in El Segundo,
+  California, Smack has raised $32M across Seed and Series A rounds led by Felicis. As of this
+  enrichment pass the company publishes no public API, developer portal, or SDKs — a defense-domain
+  vendor with no external developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/smacktechnologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Defense
+- National Security
+- Machine Learning
+- Autonomous Systems
+- Government
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/smacktechnologies-domain-security.yml
 - type: Website
   url: https://smacktechnologies.com
+- type: Blog
+  url: https://smacktechnologies.com/journal
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
