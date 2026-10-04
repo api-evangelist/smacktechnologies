@@ -48,7 +48,7 @@ tags:
 - Artificial Intelligence
 - Defense
 - National Security
-- Machine-Learning
+- Machine Learning
 - Autonomous Systems
 - Government
 tags_raw:
@@ -59,6 +59,7 @@ tags_raw:
 - Machine Learning
 - Autonomous Systems
 - Government
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
